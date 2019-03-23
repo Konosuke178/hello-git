@@ -1,11 +1,48 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTMLのテスト</title>
-  </head>
-  <body>
-    <h1>HTMLの書き方</h1>
-    <p>はじめてのHTML　HelloWorld</p>
-  </body>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html><html xml:lang="ja" lang="ja">
+<head>
+	<meta name="author" content="autherKonosuke" />
+	<meta name="Keywords" content="web,デザイン,css" />
+	<meta name="Description" content="ブラウザで使われるフォントについて" />
+	<link rel="author" href="author href" />
+	<title>ブラウザのデフォルトフォント / FontCheck</title>
+	<link rel="contents" href="contents href" title="FontCheck" />
+	<link rel="prev" href="prev href" title="全標準フォント一覧" />
+	<link rel="stylesheet" type="text/css" href="./ブラウザのデフォルトフォント __files/font.css" title="primary" />
+	<link rel="stylesheet" type="text/css" href="./ブラウザのデフォルトフォント __files/defaultfonts.css" title="primary" />
+	<link rel="icon" type="image/png" href="http://example.com/example.ico" />
+</head>
+
+<body id="cssfonts">
+
+	<dt class="yours">Your browser (p class="XXX")</dt>
+	<dd class="checkyours">
+		<p>[無指定] あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。&#xf8ff;Grumpy wizards make toxic brew for the evil Queen and Jack 1234567890</p>
+		<p class="serif">[serif] あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。&#xf8ff;Grumpy wizards make toxic brew for the evil Queen and Jack 1234567890</p>
+		<p class="sans">[sans-serif] あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。&#xf8ff;Grumpy wizards make toxic brew for the evil Queen and Jack 1234567890</p>
+		<p class="cursive">[cursive] あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。&#xf8ff;Grumpy wizards make toxic brew for the evil Queen and Jack 1234567890</p>
+		<p class="fantasy">[fantasy] あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。&#xf8ff;Grumpy wizards make toxic brew for the evil Queen and Jack 1234567890</p>
+		<p class="mono">[monospace] あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。&#xf8ff;Grumpy wizards make toxic brew for the evil Queen and Jack 1234567890</p>
+	</dd>
+
+	<dt class="yours">font</dt>
+	<dd class="checkyours">
+		<p>何も指定していない通常の文字&#x231a;Apple:&#xf8ff; Command:&#x2318; Option:&#x2325; Shift:&#x21e7;</p>
+		<p>上は指定なし、下は等幅フォント　Apple:&#xf8ff; Command:&#x2318; Option:&#x2325; Shift:&#x21e7;123AbCdEfGhIjK</p>
+		<tt>上は指定なし、下は等幅フォント　Apple:&#xf8ff; Command:&#x2318; Option:&#x2325; Shift:&#x21e7; 123AbCdEfGhIjK</tt>
+		<p><font size="1">大きさ1を指定ABCdef</font></p>
+		<p><font size="3">大きさ3を指定ABCdef</font></p>
+		<p><font size="5">大きさ5を指定ABCdef</font></p>
+		<p><font size="10">大きさ10を指定ABCdef</font></p>
+		<p><font size="13">大きさ13を指定ABCdef</font></p>
+		<p><font size="5" color="#00ff00">大きさ5とカラーコード緑色を指定</font></p>
+		<p><font color="green">カラーネームで緑色を指定</font></p>
+		<p><font size="5" face="impact">impactフォントを指定</font></p>
+		<p><font face="ＭＳ Ｐ明朝,ＭＳ 明朝">明朝体を指定</font></p>
+		<p><font face="ＭＳ Ｐゴシック,ＭＳ ゴシック">ゴシック体を指定</font></p>
+		<p><font face="sans-serif">sans-serifを指定</font></p>
+		<p><font size="6" color="#ff0000" face="ＭＳ Ｐ明朝,ＭＳ 明朝">明朝体でサイズ6と色ff0000を指定</font></p>
+	</dd>
+	
+</body>
 </html>
